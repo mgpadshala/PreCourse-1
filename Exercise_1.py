@@ -1,15 +1,16 @@
-class myStack:
-    # Kindly include Time and Space complexity at top of each file
-    
-    # Time Complexity:
-      # push()      - O(1)
-      # pop()       - O(1)
-      # peek()      - O(1)
-      # isEmpty()   - O(1)
-      # show()      - O(N): Since we copy the list to a new list in order to
-      #                     avoid external call updating the list after getting reference to the list.
+# Kindly include Time and Space complexity at top of each file
 
-    # Space Complexity: O(N)
+# Time Complexity:
+  # push()      - O(1)
+  # pop()       - O(1)
+  # peek()      - O(1)
+  # isEmpty()   - O(1)
+  # show()      - O(N): Since we copy the list to a new list in order to
+  #                     avoid external call updating the list after getting reference to the list.
+
+# Space Complexity: O(N)
+
+class myStack:
 
     def __init__(self):
       # Storing everything in a sinle array since we can directly use the array for all operations.

@@ -1,8 +1,8 @@
 # Kindly include Time and Space complexity at top of each file
 
 # Time Complexity:
-  # push()      - O(1)
-  # pop()       - O(1)
+  # push() - O(1)
+  # pop()  - O(1)
 
 # Space Complexity: O(N)
 
